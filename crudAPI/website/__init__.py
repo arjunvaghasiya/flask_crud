@@ -28,12 +28,3 @@ app.config['USER_ENABLE_EMAIL']=True
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
 from website import routes
-
-# app.config[''] = 'django.core.mail.backends.smtp.EmailBackend'
-# app.config[''] = 'smtp.gmail.com'
-# app.config[''] = True
-# app.config[''] = 587
-# app.config[''] = 'arjunvaghasiya361@gmail.com'
-# app.config[''] = 'jupxfdgokubxbpgm'
-# app.config[''] = 'arjunvaghasiya361@gmail.com'
-# # db = SQLAlchemy(app)
